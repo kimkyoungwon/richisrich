@@ -1,0 +1,191 @@
+/* Reset CSS */
+* { margin: 0; padding: 0; }
+ol, ul, li { list-style: none; }
+a { outline: 0; text-decoration: none; }
+/*body { font: 12px arial; }*/
+
+/* wrap start */
+div#wrap div { display: block; }
+
+/* header start */
+div.header { position: relative; z-index: 2; }
+ul.headerMenu { margin: 0 auto; overflow: hidden; }
+ul.headerMenu li { float: left; display: block; }
+li.phoneNumber { margin-top: 9px; }
+li.price { margin-top: 15px; margin-left: 55px; }
+ul.sns_1 { float: left; margin-top: 6px; margin-left: 49px; overflow: hidden; }
+ul.sns_1 li { float: left; margin-left: 12px; }
+li.account { margin-top: 15px; margin-left: 52px; }
+li.pillMenu {  position: relative; }
+li.union { position: absolute; margin-top: 7px; margin-left: 820px; }
+li.pillMenu, .pillMenu_2 { overflow: hidden; }
+li.pillMenu img { float: right; margin-top: 5px; margin-right: 13px; }
+li.pillMenu_2 img { float: left; display: block; }
+li.pillMenu_2 img:first-child { margin-top: 4px; margin-left: 13px; }
+li.pillMenu_2 img:nth-child(2) { margin-top: 6px; margin-left: 7px; }
+/* header end */
+
+/* navigation start */
+div.navigation::after { content: ""; display: block; clear: both; }
+div.navigation { position: absolute; top: 29px; }
+div.navigation div, ul, li { display: block; }
+div.navigationMenu { margin: 25px auto; }
+ul.foodieShop { position: relative; float: left; }
+li.foodie { position: absolute; top: 39px; left: 38px; }
+li.shop { position: absolute; top: 55px; left: 36px; }
+
+ul.specials {  float: left; margin-top: 27px; margin-left: 77px; }
+ul.mainMenu { margin-left: 10px; overflow: hidden; }
+ul.mainMenu li { float: left; display: block; }
+li.main { margin-left: 47px; }
+
+
+ul.rightMenu { position: relative; float: right; top: 28px; }
+ul.rightMenu li { position: absolute; }
+
+li.signIn { overflow: hidden; top: 0; }
+li.register { overflow: hidden; bottom: 0; }
+
+li.signIn img { float: left; display: block; }
+li.signIn img:first-child { margin-top: 4px; margin-left: 6px; }
+li.signIn img:nth-child(2) { margin-top: 8px; margin-left: 7px; }
+
+li.register img {float: left; display: block; }
+li.register img:first-child { margin-top: 4px; margin-left: 6px; }
+li.register img:nth-child(2) { margin-top: 7px; margin-left: 3px; }
+
+ul.search { float: left; margin: 82px auto; overflow: hidden; }
+ul.search li { float: left; }
+ul.search .search_2 { float: left; margin-top: 9px; margin-left: 8px; }
+li.details { position: absolute; margin-top: 16px; margin-left: 18px; }
+li.btn { float: left; margin-top: 9px; margin-left: -1px; overflow: hidden; }										
+li.btn img { float: left; display: block; }
+li.btn img:first-child { margin-top: 8px; margin-left: 7px; }
+li.btn img:nth-child(2) { margin-top: 3px; margin-left: 5px; }
+/* navigation end */
+
+/* contents start */
+div.contents { position: absolute; top: 171px; overflow: hidden; z-index: 2; }
+div.contents div,ul, li { display: block; }
+
+/* contentsFirst start */
+ul.contentsFirst { margin: 24px auto; overflow: hidden; }
+li.box { position: relative; float: left; margin-top: 14px; margin-left: 33px; }
+li.apple { position: absolute; float: left; margin-top: 14px; margin-left: 102px; }
+li.THEMANGOSHOP { float: left; margin-top: 92px; margin-left: 188px; }
+li.shopMangos { float: left; margin-top: 24px; margin-left: 189px; }
+li.shopMangos img { margin-top: 15px; margin-left: 36px; }
+ul.firstMenu { float: right; margin-top: -199px; margin-right: 24px; }
+ul.firstMenu li { margin-bottom: 9px; }
+ul.firstMenu li.apple_2 { margin-left: -9px; }
+ul.firstMenu li.wine { margin-left: -1px; }
+/* contentsFirst end */
+
+/* contentsBoth start */
+div.contentsBoth::after { content: ""; display: block; clear: both; }
+div.contentsBoth { margin: 27px auto; }
+
+/* contentsLeft start */
+div.contentsLeft { float: left; margin-right: 8px; }
+div.contentsLeft ul { display: block; }
+ul.categories { position: relative; }
+li.ribbon_1 { position: absolute; top: 28px; left: -24px; }
+li.ribbon_2 { position: absolute; top: 21px; left: 4px; z-index: 2; }
+li.ribbon_2 img { position: absolute; }
+li.ribbon_2 img:nth-child(2) { margin-top: 6px; margin-left: 60px; }
+
+ul.leftMenu { position: absolute; top: 67px; left: 64px; }
+ul.leftMenu li { display: block; margin-bottom: 14px; }
+
+ul.reviews { position: relative; margin-top: 23px; }
+ul.reviews li { display: block; }
+li.menuList { margin-left: 5px; overflow: hidden; }
+li.menuList img { float: left; display: block; }
+li.menuList img:nth-child(2) { margin-top: 3px; margin-left: 10px; }
+li.square_1 { margin-top: 21px; margin-bottom: 9px; }
+li.square_2 { margin-top: 12px; margin-bottom: 9px; }
+li.square_3 { margin-top: 12px; }
+li.turn { float: left; }
+li.reviewsText_1 { margin-top: 27px; margin-left: 14px; }
+li.reviewsText { margin-top: 18px; margin-left: 14px; }
+li.line { margin: 0 auto; }
+
+li.more { margin-top: 282px; margin-left: 5px; }
+li.more img { margin-top: 5px; margin-left: 9px; }
+ul.methods { margin-top: 31px; }
+li.cards { margin-top: 25px; margin-left: 5px; }
+/* contentsLeft end */
+
+/* contentsRight start */
+div.contentsRight { float: left; }
+
+li.rightLogo { overflow: hidden; }
+li.rightLogo img { float: left; display: block; }
+li.rightLogo img:nth-child(2) { margin-top: 3px; margin-left: 10px; }
+
+li.menuList_2 { margin-left: 9px; margin-bottom: 13px; overflow: hidden; }
+li.menu_1 { overflow: hidden; }
+li.menu_1 ul { float: left; margin-top: 16px; margin-left: 17px; }
+li.featuredText { margin-top: 21px; margin-left: 3px; }
+li.buy { margin-top: 14px; }
+div.line_2 { float: left; margin-top: 16px; margin-left: 16px; }
+
+
+ul.product_2 { margin-top: 10px; overflow: hidden; }
+ul.product_2 li ul { float: left; }
+li.menuList_3 { margin-bottom: 22px; margin-left: 9px; overflow: hidden; }
+li.common { margin-top: 7px; margin-left: 7px; }
+ul.second { margin-top: 15px; }
+li.treasure, .drinks, .alone { overflow: hidden; }
+li.treasure { float: left; margin-right: 13px; }
+li.drinks { float: left; margin-right: 15px; }
+
+li.popularText { margin-top: 10px; margin-left: 15px; }
+ul.downMenu { overflow: hidden; }
+ul.downMenu li { float: left; }
+li.buyBtn { margin: 15px; }
+li.buyBtn img { margin-top: 3px; margin-left: 16px; }
+ul.heart { margin-top: 16px; margin-left: 21px; } 
+li.heartNumber { margin-top: 3px; margin-right: 6px; }
+
+div.line_3 { float: left; margin: 26px 0 20px 5px; }
+ul.number { position: relative; margin-left: 268px; overflow: hidden; }
+ul.number li { float: left; }
+/* contentsRight end */
+/* contentsBoth end */
+/* contents end */
+
+/* footer start */
+div.footer { position: absolute; top: 1523px; z-index: 3; }
+div.footer ul, li { display: block; }
+ul.footerMenu { margin: 0 auto; overflow: hidden; }
+
+li.company { float: left; margin-top: 33px; margin-right: 60px; }
+li.categories_2 { float: left; margin-top: 33px; margin-right: 59px; }
+li.information { float: left; margin-top: 33px; margin-right: 50px; }
+
+ul.footerCenter { float: left; margin-top: 33px; overflow: hidden; }
+ul.sns_2 { overflow: hidden; }
+ul.sns_2 li { float: left; display: block; margin-top: 20px; margin-right: 12px; }
+ul.subscribe { position: relative; float: left; margin-top: 24px; overflow: hidden; }
+ul.subscribe li { float: left; display: block; }
+.search_3 { position: relative; float:left; margin-top: 10px; }
+li.enterEmail { position: absolute; top: 51px; left: 6px; }
+li.submit { float: left; margin-top: 10px; margin-left: -1px; }
+li.submit img { margin: 8px; }
+
+ul.footerLast { float: left; margin-top: 20px; margin-left: 41px; }
+ul.secured { overflow: hidden; }
+ul.secured li { float: left; }
+ul.postBox { float: left; margin-top: 26px; overflow: hidden; }
+ul.postBox li { float: left; }
+li.text { margin-top: 13px; margin-left: 11px; }
+li.text_2 { margin-top: 6px; margin-left: 13px; }
+
+ul.top { float: left; margin: 33px 85px; }
+ul.top li { display: block; }
+li.topBtn_2 { margin-top: 9px; margin-left: 5px; }
+
+ul.copyRight { float: left; margin-top: -11px; }
+/* footer end */
+/* wrap end */
